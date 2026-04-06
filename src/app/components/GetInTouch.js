@@ -9,7 +9,7 @@ const GREEN = "#2e7d32";
 const GREEN_LIGHT = "#388e3c";
 
 const CONTACTS = [
-  { Icon: Phone, label: "Emergency Helpline", value: "108 / +91-98765-43210", accent: BLUE },
+  { Icon: Phone, label: "Emergency Helpline", value: "9990083014 / +91-99900-83014", accent: BLUE },
   { Icon: Mail, label: "Email Us", value: "help@ambulacare.com", accent: GREEN },
   { Icon: MapPin, label: "Head Office", value: "123 Medical Lane, New Delhi — 110001", accent: BLUE },
 ];

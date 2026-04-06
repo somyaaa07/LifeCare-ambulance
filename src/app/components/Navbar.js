@@ -146,7 +146,7 @@ export default function Navbar() {
           <div className="navbar-topbar-left">
             <div style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 11.5, fontWeight: 600, color: "rgba(136,77,77,0.65)" }}>
               <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#4ade80", display: "inline-block", animation: "pulse 2s infinite" }} />
-              Emergency: <strong style={{ color: "white" }}>108</strong>
+              Emergency: <strong style={{ color: "white" }}>9990083014</strong>
             </div>
             <div style={{ width: 1, height: 12, background: "rgba(255,255,255,0.2)" }} />
             <span className="navbar-topbar-tagline">Dispatching across India — 24 / 7</span>
@@ -237,7 +237,7 @@ export default function Navbar() {
               Track
             </a>
             <a
-              href="tel:108"
+              href="tel:9990083014"
               style={{
                 display: "flex", alignItems: "center", gap: 8,
                 padding: "8px 16px", fontSize: 13, fontWeight: 700,
@@ -247,7 +247,7 @@ export default function Navbar() {
               }}
             >
               <span style={{ width: 8, height: 8, background: "#4ade80", borderRadius: "50%", animation: "pulse 2s infinite" }} />
-              Call 108
+              Call 99900-83014
             </a>
           </motion.div>
 
@@ -282,9 +282,9 @@ export default function Navbar() {
                   {link.label}
                 </a>
               ))}
-              <a href="tel:108" className="mobile-menu-call">
+              <a href="tel:9990083014" className="mobile-menu-call">
                 <span style={{ width: 8, height: 8, background: "#4ade80", borderRadius: "50%" }} />
-                Call 108 — Emergency
+                Call 9990083014 — Emergency
               </a>
             </motion.div>
           )}

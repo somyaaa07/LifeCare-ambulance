@@ -233,7 +233,7 @@ export default function Footer() {
           </p>
           <a href="tel:108" className="emergency-badge">
             <span style={{ fontSize: 16 }}>📞</span>
-            Call 108 — Free
+            Call 9990083014 — Free
           </a>
           <div style={{ height: 1, background: "rgba(255,255,255,0.14)", margin: "28px 0 22px" }} />
           <div style={{ display: "flex", gap: 10 }}>
@@ -269,7 +269,7 @@ export default function Footer() {
           <div style={{ display: "flex", flexDirection: "column" }}>
             {[
               { icon: "📞", label: "Emergency", value: "108", strong: true },
-              { icon: "📞", label: "Helpline", value: "+91-98765-43210" },
+              { icon: "📞", label: "Helpline", value: "+91-99900 83014" },
               { icon: "✉️", label: "Email", value: "help@ambulacare.com" },
               { icon: "📍", label: "Address", value: "123 Medical Lane, New Delhi" },
             ].map(({ icon, label, value, strong }) => (
@@ -301,7 +301,7 @@ export default function Footer() {
       <div style={{ borderTop: "1px solid rgba(255,255,255,0.12)" }}>
         <div className="footer-bottom">
           <p style={{ fontFamily: "'Jost', sans-serif", fontWeight: 300, fontSize: 12, color: "rgba(255,255,255,0.42)", margin: 0 }}>
-            © 2025 AmbulaCare. All rights reserved.
+            © 2026 AmbulaCare. All rights reserved.
           </p>
           <div className="footer-bottom-links">
             {["Privacy Policy", "Terms of Service", "Cookie Policy"].map(l => (
