@@ -9,9 +9,9 @@ const GREEN = "#2e7d32";
 const GREEN_LIGHT = "#388e3c";
 
 const CONTACTS = [
-  { Icon: Phone, label: "Emergency Helpline", value: "9990083014 / +91-99900-83014", accent: BLUE },
+  { Icon: Phone, label: "Emergency Helpline", value: "+91-99900-83014", accent: BLUE },
   { Icon: Mail, label: "Email Us", value: "help@ambulacare.com", accent: GREEN },
-  { Icon: MapPin, label: "Head Office", value: "123 Medical Lane, New Delhi — 110001", accent: BLUE },
+  { Icon: MapPin, label: "Head Office", value: "Faridabad — 110001", accent: BLUE },
 ];
 
 const fadeUp = {
@@ -175,13 +175,31 @@ export default function GetInTouch() {
             ))}
 
             {/* Map placeholder */}
-            <motion.div variants={fadeUp} custom={3} className="contact-map-placeholder">
-              <div style={{ textAlign: "center" }}>
-                <MapPin size={36} color={`${BLUE}50`} strokeWidth={1.5} style={{ display: "block", margin: "0 auto 10px" }} />
-                <p style={{ fontFamily: "'Jost', sans-serif", color: `${BLUE}70`, fontSize: 13, fontWeight: 500, margin: 0 }}>New Delhi, India</p>
-                <p style={{ fontFamily: "'Jost', sans-serif", color: "#9ca3af", fontSize: 12, fontWeight: 300, margin: "4px 0 0" }}>View on Google Maps →</p>
-              </div>
-            </motion.div>
+           {/* Map - Google Maps Embed */}
+<motion.div variants={fadeUp} custom={3} style={{
+  flex: 1,
+  minHeight: 180,
+  borderRadius: 20,
+  overflow: "hidden",
+  border: "1px solid #e8edf5",
+  boxShadow: "0 2px 12px rgba(0,0,0,0.04)",
+  position: "relative",
+}}>
+ <iframe
+  title="Ambulacare Head Office - Faridabad"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8395952226!2d77.2673!3d28.4089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdc17a0000001%3A0x74a5f90fc0b73d71!2sFaridabad%2C%20Haryana!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+  width="100%"
+  height="100%"
+  style={{
+    border: 0,
+    display: "block",
+    minHeight: 180,
+  }}
+  allowFullScreen=""
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
+</motion.div>
           </motion.div>
 
           {/* RIGHT: Form */}
@@ -301,9 +319,6 @@ export default function GetInTouch() {
                       Send Message <Send size={16} strokeWidth={2} />
                     </motion.button>
 
-                    <p style={{ fontFamily: "'Jost', sans-serif", fontWeight: 300, color: "#9ca3af", fontSize: 12, margin: 0, textAlign: "center" }}>
-                      For emergencies, call <strong style={{ color: BLUE }}>108</strong> directly.
-                    </p>
                   </motion.form>
                 )}
               </AnimatePresence>

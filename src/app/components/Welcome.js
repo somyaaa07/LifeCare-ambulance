@@ -274,7 +274,7 @@ export default function Welcome() {
 
           {/* CTAs */}
           <motion.div variants={fadeUp} custom={5} className="welcome-ctas">
-            <motion.a href="tel:108" whileHover={{ scale: 1.04, y: -2 }} whileTap={{ scale: 0.97 }}
+            <motion.a href="tel:+91-99900 83014" whileHover={{ scale: 1.04, y: -2 }} whileTap={{ scale: 0.97 }}
               style={{
                 display: "inline-flex", alignItems: "center", gap: 10,
                 background: BLUE, color: "#fff",
@@ -283,7 +283,7 @@ export default function Welcome() {
                 boxShadow: `0 12px 32px ${BLUE}35`,
               }}
             >
-              📞 Call 108 — Emergency
+              📞 Call 9990083014 — Emergency
             </motion.a>
             <motion.a href="#services" whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}
               style={{

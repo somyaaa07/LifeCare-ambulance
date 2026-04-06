@@ -290,7 +290,7 @@ export default function Banner() {
               }}
             >
               <Phone size={17} strokeWidth={2.5} />
-              Call Now — 108
+              Call Now — 9990083014
             </motion.a>
             <motion.a href="#services"
               whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}

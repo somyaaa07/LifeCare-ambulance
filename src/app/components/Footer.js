@@ -233,7 +233,7 @@ export default function Footer() {
           </p>
           <a href="tel:108" className="emergency-badge">
             <span style={{ fontSize: 16 }}>📞</span>
-            Call 9990083014 — Free
+            Call 9990083014 
           </a>
           <div style={{ height: 1, background: "rgba(255,255,255,0.14)", margin: "28px 0 22px" }} />
           <div style={{ display: "flex", gap: 10 }}>
@@ -268,10 +268,9 @@ export default function Footer() {
           <h4 className="col-heading">Contact Us</h4>
           <div style={{ display: "flex", flexDirection: "column" }}>
             {[
-              { icon: "📞", label: "Emergency", value: "108", strong: true },
-              { icon: "📞", label: "Helpline", value: "+91-99900 83014" },
+              { icon: "📞", label: "Emergency", value: "+91-99900 83014", strong: true },
               { icon: "✉️", label: "Email", value: "help@ambulacare.com" },
-              { icon: "📍", label: "Address", value: "123 Medical Lane, New Delhi" },
+              { icon: "📍", label: "Address", value: "Faridabad" },
             ].map(({ icon, label, value, strong }) => (
               <div key={label} className="contact-item">
                 <div className="contact-icon">{icon}</div>
